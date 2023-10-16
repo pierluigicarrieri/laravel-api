@@ -1,0 +1,55 @@
+@import '~bootstrap/scss/bootstrap';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import 'navbar.scss';
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 2rem;
+}
+
+.fa-html5 {
+    color: #DC4A25;
+    background-color: #FFFFFF;
+}
+
+.fa-css3-alt {
+    color: #0677BC;
+    background-color: #FFFFFF;
+}
+
+.fa-square-js {
+    color: #EFD81A;
+    background-color: #FFFFFF;
+}
+
+.fa-sass {
+    color: #C76494;
+    background-color: #FFFFFF;
+}
+
+.fa-vuejs {
+    color: #3FB27F;
+    background-color: #FFFFFF;
+}
+
+.fa-php {
+    color: #7377AE;
+    background-color: #FFFFFF;
+}
+
+.fa-database {
+    color: #EB8C11;
+    background-color: #FFFFFF;
+}
+
+.fa-laravel {
+    color: #F82C1E;
+    background-color: #FFFFFF;
+}
