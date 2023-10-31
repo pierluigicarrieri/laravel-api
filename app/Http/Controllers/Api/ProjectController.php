@@ -13,7 +13,7 @@ class ProjectController extends Controller
         //Creates a '$projects' variable with all the data in 'Projects' table and relations 
         //(through functions in 'Project' model), then paginates
 
-        $projects = Project::with('type', 'technologies')->paginate(2);
+        $projects = Project::with('type', 'technologies')->paginate(3);
 
         //Returns a json
 
